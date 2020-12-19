@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+var mysql = require('express');
 
 var con = mysql.createConnection({
     host: "localhost",
